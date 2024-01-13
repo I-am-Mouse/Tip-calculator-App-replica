@@ -1,0 +1,209 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}
+
+.flex {
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* HEADER */
+header{
+    margin: 25px auto;
+    text-align: center;
+}
+
+/* BODY */
+body {
+    background-color: hsl(185, 41%, 84%);
+}
+
+main {
+    background-color: hsl(0, 0%, 100%);
+    width: 65%;
+    margin: 10px auto;
+    padding: 40px;
+    border-radius: 20px;
+    position: relative;
+}
+
+/* section-one */
+.section-one{
+    width: 50%;
+}
+
+.article-one h3, .article-two h3, .article-three h3{
+    font-size: 1rem;
+    color: hsl(184, 14%, 40%);
+    margin-bottom: 10px;
+}
+
+.article-three h3{
+    display: inline-block;
+    padding-right: 20px;
+}
+
+
+.article-one input{
+    background:  hsl(189, 41%, 97%) url("images/icon-dollar.svg") no-repeat 10px;
+    border: none;
+    border-radius: 5px;
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 40px;
+    text-align: right;
+}
+
+.article-one input:focus, .article-two input:focus, .article-three input:focus{
+    border: 2.5px solid hsl(183, 100%, 15%);
+    outline: none;
+}
+
+
+.article-two button{
+    font-size: 1.3rem;
+    padding: 6px 35px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(183, 100%, 15%);
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.article-two button:hover {
+    background-color: hsl(185, 41%, 84%);
+}
+
+.article-two input{
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(189, 41%, 97%);
+    width: 110px;
+    padding: 6px 10px;
+}
+
+.article-two input:hover{
+    border-color: hsl(185, 41%, 84%);
+}
+
+.article-two {
+    margin-bottom: 25px;
+}
+
+.article-three input{
+    background:  hsl(189, 41%, 97%) url("images/icon-person.svg") no-repeat 10px;
+    border: none;
+    border-radius: 5px;
+    width: 93%;
+    padding: 10px;
+    text-align: right;
+}
+
+
+/* section-two */
+.section-two{
+    width: 50%;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.section-two button {
+   width: 100%;
+   padding: 7px 0px;
+   font-size: 1rem;
+   color: hsl(183, 100%, 15%);
+   border:none;
+   border-radius: 5px;
+   background-color: hsl(172, 67%, 45%);
+}
+
+.section-two button:hover {
+    background-color: hsl(185, 41%, 84%);
+}
+
+.article-four, .article-five{
+    position: relative;
+}
+
+.article-four{
+    margin-bottom: 20px;
+}
+
+.article-four h3, .article-five h3{
+    color: hsl(0, 0%, 100%);
+    font-size: .8rem;
+}
+
+.article-four p, .article-five p{
+    color: hsl(186, 14%, 43%);
+    font-size: .7rem;
+}
+
+.article-four h2, .article-five h2{
+    color: hsl(172, 67%, 45%);
+    font-size: 2.5rem;
+}
+
+.article-five{
+    margin-bottom: 90px;
+}
+
+.first-div, .second-div{
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 900px) {
+    main {
+        flex-direction: column;
+    }
+
+    main {
+        width: 100%;
+        border-radius: 30px;
+    }
+
+    .section-one{
+        width: 100%;
+    }
+
+    .article-one h3, .article-two h3, .article-three h3{
+        font-size: 1.1rem;
+        color: hsl(184, 14%, 40%);
+        margin-bottom: 10px;
+    }
+
+    .article-one input, .article-three input{
+        width: 99%;
+        padding: 17px;
+    }
+
+    .article-two button{
+        font-size: 1.4rem;
+        border-radius: 5px;
+        width: 48%;
+        margin-bottom: 20px;
+        padding: 10px 35px;
+    }
+
+    .article-two input{
+        font-size: 1.4rem;
+        border-radius: 5px;
+        width: 48%;
+        padding: 10px 10px;
+        text-align: center;
+    }
+
+    .article-three input{
+        margin-bottom: 40px;
+    }
+
+    .section-two{
+        width: 99%;
+    }
+}
