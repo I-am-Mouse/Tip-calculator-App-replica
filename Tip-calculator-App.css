@@ -162,27 +162,22 @@ main {
     main {
         flex-direction: column;
     }
-
     main {
         width: 100%;
         border-radius: 30px;
     }
-
     .section-one{
         width: 100%;
     }
-
     .article-one h3, .article-two h3, .article-three h3{
         font-size: 1.1rem;
         color: hsl(184, 14%, 40%);
         margin-bottom: 10px;
     }
-
     .article-one input, .article-three input{
         width: 99%;
         padding: 17px;
     }
-
     .article-two button{
         font-size: 1.4rem;
         border-radius: 5px;
@@ -190,7 +185,6 @@ main {
         margin-bottom: 20px;
         padding: 10px 35px;
     }
-
     .article-two input{
         font-size: 1.4rem;
         border-radius: 5px;
@@ -198,11 +192,9 @@ main {
         padding: 10px 10px;
         text-align: center;
     }
-
     .article-three input{
         margin-bottom: 40px;
     }
-
     .section-two{
         width: 99%;
     }
