@@ -1,3 +1,3 @@
 # Tip Calculator App Replica
-
-This is the replica of the TIP-CALCULATOR-APP
+It is used to calculate Tips.
+The app was built with HTML, CSS, JAVASCRIPT.
